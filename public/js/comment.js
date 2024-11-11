@@ -18,7 +18,7 @@ const commentFormHandler = async function (event) {
         if (response.ok) {
             document.location.reload();
         } else {
-            document.location.replace('/login'):
+            document.location.replace('/login');
         }
     }
 };
